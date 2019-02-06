@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubFileDownloader", "GitHubFileDownloader.csproj", "{C9DB106B-CF4F-4F09-B054-A4D824F82E37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibGit2Sharp", "..\libgit2sharp\LibGit2Sharp\LibGit2Sharp.csproj", "{B797D6A5-871A-49E1-B706-77F0276A5320}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9DB106B-CF4F-4F09-B054-A4D824F82E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DB106B-CF4F-4F09-B054-A4D824F82E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DB106B-CF4F-4F09-B054-A4D824F82E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DB106B-CF4F-4F09-B054-A4D824F82E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B797D6A5-871A-49E1-B706-77F0276A5320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B797D6A5-871A-49E1-B706-77F0276A5320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B797D6A5-871A-49E1-B706-77F0276A5320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B797D6A5-871A-49E1-B706-77F0276A5320}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C763B8-3B65-46EF-9528-7265BE4025D3}
+	EndGlobalSection
+EndGlobal
